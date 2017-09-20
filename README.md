@@ -1,11 +1,9 @@
-# arduino_4x4_matrix_keypad
-Arduino library for 4x4 16-button matrix keypads (usually chinese) with buttons labeled S1 to S16.
+## Keypad library for Arduino
 
-To snag a copy of this library in linux:
-```
-cd /home/username/Arduino/libraries
-git clone -b master --depth=1 http://github.com/imnx/arduino_4x4_matrix_keypad
-```
-For library to become visible within the Arduino IDE, close all instances of the application and re-open.
+**Authors:**  *Mark Stanley***,** *Alexander Brevig*
 
-This library is a slightly modified version of the matrix keypad library available from http://arduino.cc/ .
+
+This repository is a copy of the code found here [[Arduino Playground]](http://playground.arduino.cc/Code/Keypad).
+
+The source and file structure has been modified to conform to the newer `1.5r2` library specification and is not compatible with legacy IDE's.
+For these IDE's, visit the link above to grab the pre `1.0` compatible version, or download it directly here:  [[pre `1.0` version]](http://playground.arduino.cc/uploads/Code/keypad.zip).
